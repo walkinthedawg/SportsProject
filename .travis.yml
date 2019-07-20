@@ -1,6 +1,5 @@
-language: python
-python:
-  - "3.4"
-install: "pip3 install -r requirements.txt"
-script:
-- SECRET_KEY="test" ./manage.py test
+deploy:
+  - revision_type: github
+    access_key_id: "AKIAIUVXVHSORI3AGNFQ"
+    secret_access_key: "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"
+    application: "joinsports"
